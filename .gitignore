@@ -1,0 +1,15 @@
+# --- Segurança (NUNCA suba isso) ---
+.env
+
+# --- Lixo do Sistema e Cache ---
+__pycache__/
+*.pyc
+
+# --- Ambiente Virtual (Gigante e desnecessário) ---
+venv/
+.venv/
+env/
+
+# --- Banco de Dados Local (Opcional) ---
+# Como o chroma_db é gerado pelo seu código, não precisamos subir.
+chroma_db/
